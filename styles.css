@@ -1,0 +1,104 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding-top: 80px; /* Pour éviter que le contenu soit caché derrière le header fixe */
+    background-color: #f4f4f4;
+}
+
+header {
+    background-color: #35424a;
+    color: #ffffff;
+    padding: 10px 0;
+    text-align: center;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1000;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 24px;
+}
+
+nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    margin: 10px 0;
+    padding: 0;
+}
+
+nav ul li {
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: #ffffff;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 16px;
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+}
+
+.moodle-button {
+    position: absolute;
+    right: 20px;
+    top: 50%;
+    transform: translateY(-50%);
+    color: #ffffff;
+    text-decoration: none;
+    font-weight: bold;
+    background-color: #4285F4;
+    padding: 10px 15px;
+    border-radius: 5px;
+}
+
+.moodle-button:hover {
+    background-color: #3071E8;
+}
+
+main {
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+}
+
+section {
+    width: 100%;
+    max-width: 800px;
+}
+
+section h2 {
+    text-align: center;
+    color: #35424a;
+}
+
+section p {
+    text-align: justify;
+    line-height: 1.6;
+}
+
+section ul {
+    list-style-type: disc;
+    margin-left: 20px;
+}
+
+footer {
+    background-color: #35424a;
+    color: #ffffff;
+    text-align: center;
+    padding: 10px 0;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
