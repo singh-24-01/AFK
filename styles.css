@@ -102,3 +102,10 @@ footer {
     width: 100%;
     bottom: 0;
 }
+#plan-section img {
+    max-width: 800px;
+    width: 100%;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+}
