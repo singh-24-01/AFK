@@ -23,10 +23,18 @@ document.getElementById('plan-link').addEventListener('click', function(event) {
     showSection('plan-section');
 });
 
-// Fonction pour afficher la section souhaitée et masquer les autres
+document.getElementById('terms-link').addEventListener('click', function(event) {
+    event.preventDefault();
+    showSection('terms-section');
+});
+
+// Fonction mise à jour pour inclure la nouvelle section
 function showSection(sectionId) {
-    const sections = ['planning-section', 'presentation-section', 'mlsd-section', 'amsd-section', 'plan-section'];
+    const sections = ['planning-section', 'presentation-section', 'mlsd-section', 'amsd-section', 'terms-section', 'plan-section'];
     sections.forEach(function(id) {
         document.getElementById(id).style.display = (id === sectionId) ? 'block' : 'none';
     });
 }
+
+
+
