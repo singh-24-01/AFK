@@ -8,7 +8,7 @@ body {
 header {
     background-color: #35424a;
     color: #ffffff;
-    padding: 10px 20px; /* Ajusté pour accueillir les boutons */
+    padding: 10px 0;
     text-align: center;
     position: fixed;
     top: 0;
@@ -23,8 +23,9 @@ header h1 {
 
 nav {
     display: flex;
-    justify-content: space-between; /* Modifié de 'center' à 'space-between' */
+    justify-content: center;
     align-items: center;
+    position: relative;
 }
 
 nav ul {
@@ -49,8 +50,11 @@ nav ul li a:hover {
     text-decoration: underline;
 }
 
-/* Styles pour les boutons 'Moodle' et 'Intranet' */
-.nav-button {
+.moodle-button {
+    position: absolute;
+    right: 20px;
+    top: 50%;
+    transform: translateY(-50%);
     color: #ffffff;
     text-decoration: none;
     font-weight: bold;
@@ -59,7 +63,7 @@ nav ul li a:hover {
     border-radius: 5px;
 }
 
-.nav-button:hover {
+.moodle-button:hover {
     background-color: #3071E8;
 }
 
@@ -98,7 +102,6 @@ footer {
     width: 100%;
     bottom: 0;
 }
-
 #plan-section img {
     max-width: 800px;
     width: 100%;
