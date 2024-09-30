@@ -128,3 +128,21 @@ footer {
     display: block;
     margin: 0 auto;
 }
+
+/* Style spécifique pour la section des termes statistiques essentiels */
+.terms-content {
+    padding: 20px;
+    background-color: #f9f9f9;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    line-height: 1.6;
+}
+
+.terms-content p {
+    margin-bottom: 10px;
+}
+
+.terms-content p strong {
+    color: #35424a;
+    font-weight: bold;
+}
