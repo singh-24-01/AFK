@@ -13,8 +13,8 @@
     <ul>
         <li><a href="#" id="planning-link">Planning</a></li>
         <li><a href="#" id="presentation-link">Présentation du master</a></li>
-        <li><a href="#" id="mlsd-link">Description MLSD</a></li>
-        <li><a href="#" id="amsd-link">Description AMSD</a></li>
+       <! -- <li><a href="#" id="mlsd-link">Description MLSD</a></li> -->
+     <! --   <li><a href="#" id="amsd-link">Description AMSD</a></li> -->
         <li><a href="#" id="terms-link">Termes statistiques essentiels</a></li> <!-- Nouvel onglet -->
         <li><a href="#" id="plan-link">Plan du bâtiment principal</a></li>
     </ul>
@@ -229,23 +229,109 @@
     <h2>Termes statistiques essentiels</h2>
     <div class="terms-content">
         <p><strong>Variance :</strong> Mesure de la dispersion des données autour de la moyenne. Plus la variance est grande, plus les données sont dispersées.</p>
+
         <p><strong>Biais (Bias) :</strong> Différence entre la valeur attendue d'un estimateur et la vraie valeur d'un paramètre. Un modèle biaisé peut manquer de précision.</p>
+
         <p><strong>Écart-type (Standard Deviation) :</strong> Racine carrée de la variance. Il exprime la dispersion des données par rapport à la moyenne dans la même unité que les données.</p>
+
         <p><strong>Quartiles :</strong> Valeurs qui divisent un ensemble de données en quatre parties égales. Le premier quartile (Q1), la médiane (Q2), et le troisième quartile (Q3).</p>
+
         <p><strong>Loi de Bernoulli :</strong> Loi de probabilité qui décrit une expérience aléatoire ayant deux issues possibles (succès ou échec), avec une probabilité fixe de succès.</p>
+
         <p><strong>Loi binomiale :</strong> Généralisation de la loi de Bernoulli pour plusieurs essais indépendants. Elle modélise le nombre de succès dans un nombre d'essais donnés.</p>
+
         <p><strong>Loi normale (Gaussian Distribution) :</strong> Distribution de probabilité symétrique en forme de cloche, caractérisée par la moyenne et l'écart-type. Très utilisée pour modéliser des phénomènes naturels.</p>
+
         <p><strong>Loi de Poisson :</strong> Distribution de probabilité qui modélise le nombre d'événements se produisant dans un intervalle de temps ou d'espace, sous certaines conditions.</p>
+
         <p><strong>Espérance mathématique (Expected Value) :</strong> Moyenne pondérée des résultats d'une variable aléatoire. C'est la valeur centrale attendue d'une expérience aléatoire.</p>
+
         <p><strong>P-value :</strong> Probabilité de rejeter l'hypothèse nulle alors qu'elle est vraie. Utilisée dans les tests d'hypothèses pour évaluer la significativité statistique.</p>
+
         <p><strong>Intervalle de confiance (Confidence Interval) :</strong> Plage de valeurs qui, avec une certaine probabilité, contient la vraie valeur d'un paramètre statistique.</p>
+
         <p><strong>Régression linéaire :</strong> Technique statistique utilisée pour modéliser la relation entre une variable dépendante et une ou plusieurs variables indépendantes.</p>
+
         <p><strong>Surapprentissage (Overfitting) :</strong> Situation où un modèle est trop ajusté aux données d'entraînement, ce qui nuit à sa généralisation sur des données nouvelles.</p>
+
         <p><strong>Sous-apprentissage (Underfitting) :</strong> Modèle trop simple pour capturer les relations sous-jacentes dans les données, conduisant à une mauvaise performance.</p>
+
+        <p><strong>Matrice de confusion :</strong> Tableau utilisé pour évaluer la performance d'un modèle de classification en comptant les vraies et fausses prédictions.</p>
+
+        <p><strong>Test d'hypothèse :</strong> Méthode statistique pour tester une affirmation sur un paramètre de population en utilisant les données d'un échantillon.</p>
+
+        <p><strong>Bootstrap :</strong> Technique de rééchantillonnage qui permet d'estimer les propriétés d'un estimateur en rééchantillonnant avec remplacement.</p>
+
+        <p><strong>AIC/BIC :</strong> Critères utilisés pour comparer différents modèles statistiques et choisir le meilleur modèle en fonction de sa qualité ajustée.</p>
+
+        <p><strong>Analyse en composantes principales (ACP) :</strong> Méthode de réduction de dimensionnalité qui transforme des variables corrélées en nouvelles variables non corrélées tout en conservant l'essentiel de la variance.</p>
+
+        <p><strong>Matrice :</strong> Un tableau de nombres disposés en lignes et en colonnes, utilisé pour organiser des ensembles de données et des transformations linéaires.</p>
+
+        <p><strong>Covariance :</strong> Mesure de la manière dont deux variables varient ensemble. Si la covariance est positive, les deux variables augmentent ensemble, si elle est négative, elles varient en sens inverse.</p>
+
+        <p><strong>Matrice de covariance :</strong> Matrice carrée qui présente les covariances entre chaque paire de variables dans un ensemble de données.</p>
+
+        <p><strong>Vecteur :</strong> Une liste ordonnée de nombres qui représente une quantité ayant une direction et une magnitude. Les vecteurs sont utilisés dans des espaces de haute dimension.</p>
+
+        <p><strong>Autovalues (Valeurs propres) :</strong> Les scalaires associés aux vecteurs propres d'une matrice. Utilisées pour comprendre des caractéristiques fondamentales des transformations linéaires.</p>
+
+        <p><strong>Autovecteurs (Vecteurs propres) :</strong> Les vecteurs associés aux valeurs propres qui ne changent pas de direction lors de la transformation par une matrice.</p>
+
+        <p><strong>Régularisation :</strong> Technique utilisée pour ajouter une pénalité aux modèles statistiques afin d’éviter le surapprentissage.</p>
+
+        <p><strong>Régression Ridge :</strong> Forme de régression linéaire qui inclut une régularisation L2 pour pénaliser les grands coefficients afin de réduire le surapprentissage.</p>
+
+        <p><strong>Régression Lasso :</strong> Forme de régression linéaire qui inclut une régularisation L1 pour favoriser la parcimonie en forçant certains coefficients à zéro.</p>
+
+        <p><strong>Gradient Descent :</strong> Algorithme d'optimisation utilisé pour minimiser la fonction de coût dans les modèles d’apprentissage machine.</p>
+
+        <p><strong>Matrice de corrélation :</strong> Une matrice qui montre la corrélation entre chaque paire de variables. Utile pour repérer les relations linéaires entre les variables.</p>
+
+        <p><strong>Loi des grands nombres :</strong> Théorème indiquant que, à mesure que le nombre d'échantillons augmente, la moyenne d’un échantillon approche la moyenne théorique de la population.</p>
+
+        <p><strong>Théorème central limite :</strong> Théorème stipulant que la somme ou la moyenne de variables aléatoires indépendantes tend vers une distribution normale à mesure que la taille de l’échantillon augmente.</p>
+
+        <p><strong>Maximum de vraisemblance (MLE) :</strong> Méthode d’estimation des paramètres d’un modèle statistique en maximisant une fonction de vraisemblance.</p>
+
+        <p><strong>Algorithme K-means :</strong> Algorithme de clustering non supervisé qui partitionne les données en k groupes en minimisant la distance intra-cluster.</p>
+
+        <p><strong>Réseaux bayésiens :</strong> Structures de données en forme de graphe qui représentent les relations probabilistes entre des variables.</p>
+
+        <p><strong>K-Nearest Neighbors (K-NN) :</strong> Algorithme utilisé pour la classification basé sur la similarité des points voisins dans l'espace des données.</p>
+
+        <p><strong>Distance euclidienne :</strong> Mesure de la distance directe entre deux points dans un espace multi-dimensionnel. Utilisée dans les algorithmes de clustering.</p>
+
+        <p><strong>Normalisation et standardisation :</strong> Techniques de prétraitement des données qui ramènent les données dans un intervalle fixe ou une distribution normalisée.</p>
+
+        <p><strong>Test de Chi-carré :</strong> Test statistique utilisé pour déterminer si une relation existe entre deux variables catégorielles.</p>
+
+        <p><strong>Méthode des moindres carrés :</strong> Méthode utilisée pour ajuster un modèle de régression en minimisant la somme des carrés des différences entre les valeurs observées et prédites.</p>
+
+        <p><strong>Variance expliquée :</strong> Proportion de la variance totale d'un ensemble de données qui est expliquée par un modèle statistique.</p>
+
+        <p><strong>Effet de levier (Leverage) :</strong> Mesure de l'influence d'un point de données sur la régression.</p>
+
+        <p><strong>Information Entropy (Entropie) :</strong> Mesure de l'incertitude ou de la quantité d'information contenue dans une variable aléatoire.</p>
+
+        <p><strong>Mutual Information :</strong> Mesure de la dépendance entre deux variables, quantifiant combien connaître la valeur d'une variable réduit l'incertitude de l'autre.</p>
+
+        <p><strong>Cross-validation :</strong> Technique utilisée pour évaluer la performance d’un modèle en le testant sur plusieurs sous-ensembles des données.</p>
+
+        <p><strong>Random Forest :</strong> Algorithme basé sur la création de multiples arbres de décision pour améliorer la précision et réduire le risque de surapprentissage.</p>
+
+        <p><strong>Réseaux de neurones convolutifs (CNN) :</strong> Type de réseau de neurones spécialisé dans le traitement des données structurées en grille, comme les images.</p>
+
+        <p><strong>Réseaux de neurones récurrents (RNN) :</strong> Type de réseau de neurones adapté aux séquences de données, où les informations des étapes précédentes influencent les prédictions actuelles.</p>
+
+        <p><strong>Courbe ROC (Receiver Operating Characteristic) :</strong> Courbe utilisée pour évaluer les performances d'un modèle de classification en traçant le taux de vrais positifs contre le taux de faux positifs.</p>
+
+        <p><strong>AUC (Area Under the Curve) :</strong> Surface sous la courbe ROC, utilisée comme une mesure de performance globale d’un modèle de classification.</p>
     </div>
-             <br></br>
+            <br></br>
             <br></br>
 </section>
+
 
         <section id="plan-section" style="display: none;">
             <h2>Plan du bâtiment principal</h2>
