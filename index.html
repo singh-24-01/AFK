@@ -2,25 +2,34 @@
 <html lang="fr">
 <head>
     <meta charset="UTF-8">
-    <title> Master MLSD & AMSD - UPC </title>
+    <title>Master MLSD & AMSD - UPC</title>
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
     <header>
         <h1>Master MLSD & AMSD - Université Paris Cité</h1>
         <nav>
-    <a href="https://intranet.u-paris.fr/" target="_blank" class="intranet-button">Intranet</a>
-    <ul>
-        <li><a href="#" id="planning-link">Planning</a></li>
-        <li><a href="#" id="presentation-link">Présentation du master</a></li>
-        <li><a href="#" id="mlsd-link">Description MLSD</a></li>
-        <li><a href="#" id="amsd-link">Description AMSD</a></li>
-        <li><a href="#" id="terms-link">Termes statistiques essentiels</a></li> <!-- Nouvel onglet -->
-        <li><a href="#" id="plan-link">Plan du bâtiment principal</a></li>
-    </ul>
-    <a href="https://moodle.u-paris.fr/" target="_blank" class="moodle-button">Moodle</a>
-</nav>
-
+            <a href="https://intranet.u-paris.fr/" target="_blank" class="intranet-button">Intranet</a>
+            <ul>
+                <li><a href="#" id="planning-link">Planning</a></li>
+                <li class="dropdown">
+                    <a href="#" class="dropbtn">Présentation Du Master</a>
+                    <div class="dropdown-content">
+                        <a href="#" id="presentation-link">Présentation du master</a>
+                        <a href="#" id="mlsd-link">Description MLSD</a>
+                        <a href="#" id="amsd-link">Description AMSD</a>
+                        <a href="#" id="plan-link">Plan du bâtiment principal</a> <!-- Déplacé ici -->
+                    </div>
+                </li>
+                <li class="dropdown">
+                    <a href="#" class="dropbtn">Cours</a>
+                    <div class="dropdown-content">
+                        <a href="#" id="terms-link">Termes statistiques essentiels</a>
+                    </div>
+                </li>
+            </ul>
+            <a href="https://moodle.u-paris.fr/" target="_blank" class="moodle-button">Moodle</a>
+        </nav>
     </header>
     <main>
         <section id="planning-section">
