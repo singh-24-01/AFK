@@ -35,6 +35,3 @@ function showSection(sectionId) {
         document.getElementById(id).style.display = (id === sectionId) ? 'block' : 'none';
     });
 }
-
-
-
